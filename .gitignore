@@ -218,3 +218,7 @@ __marimo__/
 
 # macOS system files
 .DS_Store
+
+# Disregard data files
+data/
+_raw/
