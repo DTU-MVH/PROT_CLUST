@@ -11,7 +11,7 @@ import sys
 # ==========================================
 
 INPUT_FILENAME = "data/cleaned_data.csv" # Make sure this path matches your folder structure
-OUTPUT_CSV_NAME = "clustered_results.csv"
+OUTPUT_CSV_NAME = "data/output/clustered_results.csv"
 
 # --- MCL Parameters for Large Datasets ---
 MCL_INFLATION = 2.0
