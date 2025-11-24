@@ -41,9 +41,21 @@ if __name__ == "__main__":
         sys.exit(1)
     
     # 1. Run the prerequisite check first
-    run_script("pre_requisites.py")
+    run_script("pre_req.py")
     
     # 2. Run the data import script next using the full relative path
     run_script(str(DATA_IMPORT_PATH))
-    
+
+    # 3. Run the preprocessing and clustering scripts
+    run_script("features/preprocessing.py")
+
+    # 4 . Run the Louvain Clustering script
+    #run_script("features/lovain_clustering.py")
+
+    # 5. Run the Markov Clustering High Performance script
+    #run_script("features/markov_clustering_highperformance.py")
+
+    # 6. Run the analysis script for Louvain results
+    run_script("features/analyze_results_louvain.py")
+
     print("\n\n✨ All project setup tasks complete! ✨")
