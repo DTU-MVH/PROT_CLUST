@@ -1,0 +1,13 @@
+gdown
+ipython
+markov-clustering
+matplotlib
+networkx
+numpy
+pandas
+python-louvain
+pyvis
+scikit-learn
+scipy
+seaborn
+ipykernel
